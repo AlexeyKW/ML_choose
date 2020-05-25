@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+<div>
+<select id="taskType" name="taskType">
+  <option  disabled selected>Решаемая задача</option>
+  <option>Регрессия</option>
+  <option>Поиск аномалий</option>
+</select>
+
+<select id="dataType" name="dataType">
+  <option  disabled selected>Тип исходных данных</option>
+  <option>Векторные данные</option>
+  <option>Растровые данные</option>
+  <option>Покрытия</option>
+</select>
+
+<select id="isTime" name="isTime">
+  <option  disabled selected>Наличие временного ряда</option>
+  <option>Да</option>
+  <option>Нет</option>
+</select>
+
+<select id="interp" name="interp">
+  <option  disabled selected>Интерпретируемость</option>
+  <option>Да</option>
+  <option>Нет</option>
+</select>
+
+<select id="calcSpeed" name="calcSpeed">
+  <option  disabled selected>Важна скорость обработки</option>
+  <option>Да</option>
+  <option>Нет</option>
+</select>
+
+</div>
+<span id="output">Предлагаемые алгоритмы</span>
+<div>
+
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+
